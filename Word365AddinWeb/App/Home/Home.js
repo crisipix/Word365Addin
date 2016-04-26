@@ -124,7 +124,7 @@
                 // Replace the text value for each of the content controls that
                 // have a tag called "security". Highlight the content controls.
                 for (var i = 0; i < ccs.items.length; i++) {
-                    ccs.items[i].insertText("MTU", "replace");
+                    ccs.items[i].insertText( $('#security')[0][$('#security').val()].innerText, "replace");
                     ccs.items[i].font.highlightColor = "#FFFFFF";
                 }
             })

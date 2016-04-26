@@ -34,8 +34,19 @@
             <button class="ms-Button ms-Button--compound" id="insertSow">
                 <span class="ms-Button-label">1. Insert Template</span><span class="ms-Button-description">Insert initial content from a previous Statement of Work</span>
             </button><br><br>
+            <label class="ms-Label">Security:</label>
+            <select id="security" class="disable-while-sending" style="width: inherit">
+                <option value=""></option>
+                <option value="1">ACO</option>
+                <option value="2">CHK</option>
+                <option value="3">C</option>
+                <option value="4">BAC</option>
+                <option value="5">GOOG</option>
+                <option value="6">MTU</option>
+                <option value="7">STZ</option>
+            </select><br>
             <button class="ms-Button ms-Button--compound" id="changeSecurity">
-                <span class="ms-Button-label">2. Change Security</span><span class="ms-Button-description">Set the security to 'MTU' using content controls</span>
+                <span class="ms-Button-label">2. Change Security</span><span class="ms-Button-description">Set the security to using content controls</span>
             </button><br><br>
             <button class="ms-Button ms-Button--compound" id="get-data-from-selection">
                 <span class="ms-Button-label">3. Send To Server</span><span class="ms-Button-description">Send data from selection</span>
